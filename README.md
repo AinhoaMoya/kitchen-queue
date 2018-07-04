@@ -5,19 +5,17 @@ Just run:
 ```
 npm run install
 npm run start
-
 ```
 
-For running tests: 
+For running tests:
 
 ```
 npm run test
-
 ```
 
 At this point your terminal will start printing the orders being placed in the different shelves, and also the orders being simultaneously picked up by drivers.
 
-# Understanding how orders distributed among shelves
+# Understanding how orders are distributed among shelves
 
 Each shelf is implemented using a queue like structure. One of its properties is `limit`, which we assign when creating each shelf object and represents the maximum number of items each shelf can hold.
 
