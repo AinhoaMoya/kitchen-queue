@@ -1,0 +1,29 @@
+{
+  "name": "kitchen-queue",
+  "version": "1.0.0",
+  "description": "Just run:",
+  "main": "kitchen.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha 'tests/**/*.test.js'",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AinhoaMoya/kitchen-queue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AinhoaMoya/kitchen-queue/issues"
+  },
+  "homepage": "https://github.com/AinhoaMoya/kitchen-queue#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.0"
+  }
+}
